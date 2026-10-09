@@ -11,17 +11,22 @@ struct ContentView: View {
 
     var body: some View {
 
-        VStack(spacing: 8) {
+        VStack(spacing: 10) {
 
-            Image(systemName: "applewatch")
-                .font(.title)
+            Image(systemName: "figure.walk")
+                .font(.largeTitle)
+                .foregroundStyle(.green)
 
-            Text("SE4041")
+            Text("Daily Activity")
                 .font(.headline)
+
+            Text("5,240")
+                .font(.title)
                 .bold()
 
-            Text("watchOS")
+            Text("Steps")
                 .font(.caption)
+                .foregroundStyle(.secondary)
         }
     }
 }
