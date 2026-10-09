@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct QuickTasks_Watch_AppApp: App {
+    @State private var sampleDetailTask = TaskItem(
+        title: "Morning Walk",
+        completed: true,
+        category: .health,
+        priority: .medium
+    )
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if CommandLine.arguments.contains("-screenshotDetail") {
+                NavigationStack {
+                    TaskDetailView(task: $sampleDetailTask)
+                }
+            } else {
+                ContentView()
+            }
         }
     }
 }

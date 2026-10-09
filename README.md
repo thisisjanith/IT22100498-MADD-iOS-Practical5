@@ -1034,13 +1034,12 @@ Add at least:
 
 The screenshots must show the application running in the Apple Watch Simulator. Use **File → Save Screen** in Simulator (or its screenshot command), then save the images with the filenames above.
 
-After adding the files, you can embed them in your repository README:
+### Captured App Screenshots
 
-```markdown
-![Main screen](screenshots/01-Main-Screen.png)
-![Completed tasks](screenshots/02-Completed-Tasks.png)
-![Task detail](screenshots/03-Task-Detail.png)
-```
+| Main Screen (Initial 2/4) | Completed Tasks (4/4 100%) | Task Detail View |
+| :---: | :---: | :---: |
+| ![Main screen](screenshots/01-Main-Screen.png) | ![Completed tasks](screenshots/02-Completed-Tasks.png) | ![Task detail](screenshots/03-Task-Detail.png) |
+
 
 ---
 
@@ -1110,22 +1109,22 @@ Open GitHub and verify that all files have been pushed successfully.
 
 ## 27. Final Submission Checklist
 
-- [ ] Project opens successfully in Xcode.
-- [ ] watchOS target builds without errors.
-- [ ] App runs in the Apple Watch Simulator.
-- [ ] At least four tasks are displayed.
-- [ ] Model conforms to `Identifiable`.
-- [ ] `@State` is used.
-- [ ] `List` is used.
-- [ ] SF Symbols are used.
-- [ ] Task state can be changed.
-- [ ] Completion count updates correctly.
-- [ ] `NavigationStack` is used.
-- [ ] Detail screen works.
-- [ ] One additional feature has been completed.
-- [ ] Screenshots have been added.
-- [ ] Code has been committed.
-- [ ] Latest changes have been pushed to GitHub.
+- [x] Project opens successfully in Xcode.
+- [x] watchOS target builds without errors.
+- [x] App runs in the Apple Watch Simulator.
+- [x] At least four tasks are displayed.
+- [x] Model conforms to `Identifiable`.
+- [x] `@State` is used.
+- [x] `List` is used.
+- [x] SF Symbols are used.
+- [x] Task state can be changed.
+- [x] Completion count updates correctly.
+- [x] `NavigationStack` is used.
+- [x] Detail screen works.
+- [x] One additional feature has been completed.
+- [x] Screenshots have been added.
+- [x] Code has been committed.
+- [x] Latest changes have been pushed to GitHub.
 
 ---
 
