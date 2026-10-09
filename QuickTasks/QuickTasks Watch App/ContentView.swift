@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+
+        VStack(spacing: 8) {
+
+            Image(systemName: "applewatch")
+                .font(.title)
+
+            Text("SE4041")
+                .font(.headline)
+                .bold()
+
+            Text("watchOS")
+                .font(.caption)
         }
-        .padding()
     }
 }
 
